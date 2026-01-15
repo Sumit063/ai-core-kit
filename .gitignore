@@ -1,1 +1,38 @@
 .env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# Go
+bin/
+*.out
+*.test
+coverage.out
+
+# Local data/output
+**/data/
+
+# OS/editor
+.DS_Store
+Thumbs.db
