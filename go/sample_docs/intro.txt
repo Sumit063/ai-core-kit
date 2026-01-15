@@ -1,0 +1,3 @@
+ai-core-kit is a minimal monorepo showing how to integrate AI providers
+and build a tiny retrieval-augmented generation (RAG) pipeline.
+It includes examples in Python, Go, and Node.js.
